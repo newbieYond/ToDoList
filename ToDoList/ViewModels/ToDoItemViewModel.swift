@@ -1,5 +1,5 @@
 //
-//  ProfileViewModel.swift
+//  ToDoItemViewModel.swift
 //  ToDoList
 //
 //  Created by 조성호 on 2023/05/06.
@@ -7,6 +7,6 @@
 
 import Foundation
 
-class ProfileViewModel: ObservableObject {
+class ToDoItemViewModel: ObservableObject {
     init() {}
 }

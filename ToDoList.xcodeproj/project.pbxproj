@@ -29,9 +29,10 @@
 		6C28F3152A06313D0096E4CF /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F3142A06313D0096E4CF /* NewItemViewModel.swift */; };
 		6C28F3172A0631480096E4CF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F3162A0631480096E4CF /* LoginViewModel.swift */; };
 		6C28F3192A0631530096E4CF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F3182A0631530096E4CF /* RegisterViewModel.swift */; };
-		6C28F31B2A06315D0096E4CF /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31A2A06315D0096E4CF /* ToDoListItemViewModel.swift */; };
+		6C28F31B2A06315D0096E4CF /* ToDoItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31A2A06315D0096E4CF /* ToDoItemViewModel.swift */; };
 		6C28F31D2A06341A0096E4CF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31C2A06341A0096E4CF /* HeaderView.swift */; };
 		6C28F31F2A063B050096E4CF /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31E2A063B050096E4CF /* TLButton.swift */; };
+		6CA311D42A0CE27D00F5DB6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA311D32A0CE27D00F5DB6A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,9 +56,10 @@
 		6C28F3142A06313D0096E4CF /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		6C28F3162A0631480096E4CF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6C28F3182A0631530096E4CF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
-		6C28F31A2A06315D0096E4CF /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		6C28F31A2A06315D0096E4CF /* ToDoItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemViewModel.swift; sourceTree = "<group>"; };
 		6C28F31C2A06341A0096E4CF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		6C28F31E2A063B050096E4CF /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		6CA311D32A0CE27D00F5DB6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,7 @@
 				6C28F3142A06313D0096E4CF /* NewItemViewModel.swift */,
 				6C28F3162A0631480096E4CF /* LoginViewModel.swift */,
 				6C28F3182A0631530096E4CF /* RegisterViewModel.swift */,
-				6C28F31A2A06315D0096E4CF /* ToDoListItemViewModel.swift */,
+				6C28F31A2A06315D0096E4CF /* ToDoItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -155,6 +157,7 @@
 				6C28F2E22A0627790096E4CF /* ToDoListApp.swift */,
 				6C28F2E62A06277B0096E4CF /* Assets.xcassets */,
 				6C28F2F72A062A5A0096E4CF /* GoogleService-Info.plist */,
+				6CA311D32A0CE27D00F5DB6A /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -249,10 +252,11 @@
 				6C28F30B2A0630E70096E4CF /* User.swift in Sources */,
 				6C28F3112A0631250096E4CF /* ProfileViewModel.swift in Sources */,
 				6C28F3092A06302E0096E4CF /* ToDoListItemView.swift in Sources */,
-				6C28F31B2A06315D0096E4CF /* ToDoListItemViewModel.swift in Sources */,
+				6C28F31B2A06315D0096E4CF /* ToDoItemViewModel.swift in Sources */,
 				6C28F3172A0631480096E4CF /* LoginViewModel.swift in Sources */,
 				6C28F3152A06313D0096E4CF /* NewItemViewModel.swift in Sources */,
 				6C28F2E32A0627790096E4CF /* ToDoListApp.swift in Sources */,
+				6CA311D42A0CE27D00F5DB6A /* Extensions.swift in Sources */,
 				6C28F30D2A0630FB0096E4CF /* ToDoListItem.swift in Sources */,
 				6C28F3132A06312F0096E4CF /* ToDoListViewModel.swift in Sources */,
 				6C28F3032A062F9E0096E4CF /* NewItemView.swift in Sources */,
