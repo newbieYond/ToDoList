@@ -33,6 +33,7 @@
 		6C28F31D2A06341A0096E4CF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31C2A06341A0096E4CF /* HeaderView.swift */; };
 		6C28F31F2A063B050096E4CF /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28F31E2A063B050096E4CF /* TLButton.swift */; };
 		6CA311D42A0CE27D00F5DB6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA311D32A0CE27D00F5DB6A /* Extensions.swift */; };
+		D1DE4F732A14BCEC00CDA2BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DE4F722A14BCEC00CDA2BB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		6C28F31C2A06341A0096E4CF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		6C28F31E2A063B050096E4CF /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		6CA311D32A0CE27D00F5DB6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D1DE4F722A14BCEC00CDA2BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				6C28F2E62A06277B0096E4CF /* Assets.xcassets */,
 				6C28F2F72A062A5A0096E4CF /* GoogleService-Info.plist */,
 				6CA311D32A0CE27D00F5DB6A /* Extensions.swift */,
+				D1DE4F722A14BCEC00CDA2BB /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				6C28F2EA2A06277B0096E4CF /* Preview Assets.xcassets in Resources */,
 				6C28F2E72A06277B0096E4CF /* Assets.xcassets in Resources */,
+				D1DE4F732A14BCEC00CDA2BB /* Launch Screen.storyboard in Resources */,
 				6C28F2F82A062A5B0096E4CF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,13 +393,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
-				DEVELOPMENT_TEAM = 9P99WW9DYH;
+				DEVELOPMENT_TEAM = 9LS8WBKYZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,13 +424,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
-				DEVELOPMENT_TEAM = 9P99WW9DYH;
+				DEVELOPMENT_TEAM = 9LS8WBKYZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (

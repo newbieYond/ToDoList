@@ -1,5 +1,5 @@
 //
-//  ToDoListItemView.swift
+//  ToDoItemView.swift
 //  ToDoList
 //
 //  Created by 조성호 on 2023/05/06.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct ToDoListItemView: View {
-    @StateObject var viewModel = ProfileViewModel()
+struct ToDoItemView: View {
+    @StateObject var viewModel = ToDoItemViewModel()
     let item: ToDoListItem
     
     var body: some View {
@@ -34,9 +34,9 @@ struct ToDoListItemView: View {
     }
 }
 
-struct ToDoListItemView_Previews: PreviewProvider {
+struct ToDoItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListItemView(item: .init(id: "123",
+        ToDoItemView(item: .init(id: "123",
                                      title: "Get mild",
                                      dueDate: Date().timeIntervalSince1970,
                                      createdDate: Date().timeIntervalSince1970,
